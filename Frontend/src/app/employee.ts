@@ -1,6 +1,6 @@
 export class Employee {
   empId: string;
-  fName: string;
+  fname: string;
   lname: string;
   email: string;
 }
