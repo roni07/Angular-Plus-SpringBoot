@@ -3,19 +3,19 @@
   <form (ngSubmit)="onSubmit()">
     <div class="form-group">
       <label for="empId">Employee Id</label>
-      <input type="text" class="form-control" required [(ngModel)]="employee.empId" id="empId">
+      <input type="text" class="form-control" required [(ngModel)]="employee.empId" id="empId" name="empId">
     </div>
     <div class="form-group">
       <label for="firstName">First Name</label>
-      <input type="text" class="form-control" required [(ngModel)]="employee.fName" id="firstName">
+      <input type="text" class="form-control" required [(ngModel)]="employee.fname" id="firstName" name="fname">
     </div>
     <div class="form-group">
       <label for="lastName">Last Name</label>
-      <input type="text" class="form-control" required [(ngModel)]="employee.lname" id="lastName">
+      <input type="text" class="form-control" required [(ngModel)]="employee.lname" id="lastName" name="lname">
     </div>
     <div class="form-group">
       <label for="email">Email</label>
-      <input type="email" class="form-control" required [(ngModel)]="employee.email" id="email">
+      <input type="email" class="form-control" required [(ngModel)]="employee.email" id="email" name="email">
     </div>
     <button type="submit" class="btn btn-success">Submit</button>
   </form>
